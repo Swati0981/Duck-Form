@@ -1,0 +1,39 @@
+/* normalize.css */
+/* Simple normalization for Duck Form project */
+
+/* Reset spacing and box model */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Improve text rendering */
+  html {
+    font-size: 100%;
+  }
+  
+  body {
+    line-height: 1.5;
+  }
+  
+  /* Make media predictable */
+  img {
+    display: block;
+    max-width: 100%;
+  }
+  
+  /* Normalize form elements */
+  input,
+  textarea,
+  button {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: normal;
+  }
+  
+  /* Remove default button styles */
+  button {
+    background: none;
+  }
+  
