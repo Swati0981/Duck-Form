@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Duck Form</title>
+</head>
+<body>
+    <main class="form-wrapper">
+
+        <section class="form-container">
+    
+          <form id="duckForm" novalidate>
+    
+            <label for="name">FULL NAME</label>
+            <input type="text" id="name" name="name" required minlength="3">
+    
+            <label for="email">EMAIL</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="topic">MESSAGE REGARDING</label>
+            <input type="text" id="topic" name="topic" required>
+    
+            <label for="message">MESSAGE</label>
+            <textarea id="message" name="message" required minlength="10"></textarea>
+    
+            <button type="submit">SEND MESSAGE</button>
+    
+          </form>
+    
+    
+
+        <div class="form-image">
+         <img src="images/duck.png" alt="Yellow rubber duck">
+       </div>
+        </section>
+
+    </main>
+  
+    
+  </body>
+  </html>
